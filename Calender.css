@@ -1,0 +1,93 @@
+
+
+.wrapper{
+	display: flex;
+	width: 100vm;
+	height: 40vh;
+	/*background-color: #5F4B8BFF;*/
+
+}
+.Calender{
+	margin: auto;
+	width: 600px;
+	height: 120%;
+	/*background-color: #082032;*/
+	border-radius: 9px 9px 9px 9px;
+}
+.month{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 100%;
+	height: 25px;
+	text-align: center; ;
+	/*background-color:#2C394B ;*/
+	
+	border-radius: 9px 9px 0px 0px;
+	padding:40px 30px ;
+	cursor: pointer;
+}
+.weekends{
+	display: flex;
+	background-color:#334756 ;
+	padding: 7px 0px;
+	cursor: pointer;
+	font-size: 1.4rem;
+	color: white;
+}
+
+.weekends div {
+	width: 14.28%;
+	text-align: center;
+}
+.days{
+	display: flex;
+	flex-wrap: wrap;
+	text-align: center;
+	padding: 8px 0px;
+	font-size: 1.4rem;
+}
+.days div{
+	width: 14.28%;
+	margin-bottom: 10px;
+    padding: 8px;
+}
+
+.days div:hover {
+   background-color: #595B83; 
+   border-radius: 9px;
+   cursor: pointer;
+}
+.today{
+	background-color:  white;
+	border-radius: 9px;
+	color: black;
+}
+
+.prev_date {
+	color:#6E6E6DFF ;
+}
+
+#month {
+	font-size: 30px;
+}
+
+.prev,
+.next {
+	display: flex;
+	justify-content: center;
+    align-items: center;
+    font-size: 23px;
+	width: 50px;
+	height: 50px;
+	background-color:#3C415C ;
+	border-radius: 50%;
+	cursor: pointer;
+}
+
+.prev:hover,
+.next:hover{
+	background-color:#0063B2FF ;
+}
+
+

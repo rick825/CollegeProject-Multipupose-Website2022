@@ -1,0 +1,14 @@
+@media only screen and (max-width: 600px){
+	
+	/*nav section*/
+
+	.navlistright{
+		display: none;
+	}
+
+	.navlistleft{
+		width: 100%;
+	}
+
+	/*end nav section*/
+}
